@@ -15,12 +15,36 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(236, 236, 236);
+}
+
 header {
     font-family: 'Nerko One', cursive;
 }
 
 main {
     font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+
+ul>li {
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--giallo-booleano-primary);
+}
+
+.title {
+    color: var(--giallo-booleano-secondary-dark);
+}
+
+.section-logo {
+    background-color: var(--giallo-booleano-light);
+}
+
+.row {
+    background-color: var(--giallo-booleano-light);
 }
 /* end-common region */
 
@@ -44,6 +68,10 @@ main {
 
 .youtube {
     width: 100%;
+}
+
+.padding {
+    padding: 1rem;
 }
 /* end-utility region */
 
