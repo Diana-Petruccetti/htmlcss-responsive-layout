@@ -41,6 +41,10 @@ main {
 .justify-content-center {
     justify-content: center;
 }
+
+.youtube {
+    width: 100%;
+}
 /* end-utility region */
 
 
