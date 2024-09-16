@@ -1,0 +1,36 @@
+/* debug region*/
+.debug * {
+    border: 1px dashed;
+}
+
+.debug [class^="col-"] {
+    min-height: 300px;
+}
+/* end-debug region */
+
+/* common region */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Nerko One', cursive;
+}
+
+main {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+/* end-common region */
+
+/* utility region*/
+:root {
+    --giallo-booleano-primary: #ff9614;
+    --giallo-booleano-secondary-dark: #4e3969;
+    --giallo-booleano-secondary-light: #7c69a4;
+    --giallo-booleano-dark: #000000;
+    --giallo-booleano-light: #ffffff;
+    --giallo-booleano-grey: #aaaaaa;
+}
+/* end-utility region */
