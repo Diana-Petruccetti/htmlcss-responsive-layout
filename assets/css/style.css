@@ -79,13 +79,7 @@ ul>li {
 /* mobile first */
 /* mobile first */
 /* mobile first */
-@media screen and (max-width: 320px) {
-    /* header */
-.section-logo {
-    display: flex;
-    justify-content: center;
-}
-    /* end-header */
+@media screen and (min-width: 320px) {
     /* utility */
     .col-1 {
         width: calc((100% / 12) * 1);
@@ -135,6 +129,36 @@ ul>li {
         width: 100%;
     }
     /* end-utility */
+     /* header */
+.section-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    justify-content: center;
+}
+    /* end-header */
+    /* main */
+    /* section video */
+.title {
+    margin-bottom: 5px;
+}
+
+.category {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+div .info>h3 {
+    margin-bottom: 10px;
+}
+
+.traditional {
+    display: none;
+}
+    /* end-section video */
+    /* end-main */
 }
 
 
@@ -143,6 +167,81 @@ ul>li {
 /* media query */
 
 /* query tablet */
+@media screen and (min-width: 768px) {
+    .col-1-tb {
+        width: calc((100% / 12) * 1);
+    }
+    
+    .col-2-tb {
+        width: calc((100% / 12) * 2);
+    }
+    
+    .col-3-tb {
+        width: calc((100% / 12) * 3);
+    }
+    
+    .col-4-tb {
+        width: calc((100% / 12) * 4);
+    }
+    
+    .col-5-tb {
+        width: calc((100% / 12) * 5);
+    }
+    
+    .col-6-tb {
+        width: 50%;
+    }
+    
+    .col-7-tb {
+        width: calc((100% / 12) * 7);
+    }
+    
+    .col-8-tb {
+        width: calc((100% / 12) * 8);
+    }
+    
+    .col-9-tb {
+        width: calc((100% / 12) * 9);
+    }
+    
+    .col-10-tb {
+        width: calc((100% / 12) * 10);
+    }
+    
+    .col-11-tb {
+        width: calc((100% / 12) * 11);
+    }
+    
+    .col-12-tb {
+        width: 100%;
+    }
+    /* end-utility */
+     /* header */
+.section-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    justify-content: center;
+}
+    /* end-header */
+    /* main */
+.title {
+    margin-bottom: 5px;
+}
+
+.category {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+div .info>h3 {
+    margin-bottom: 10px;
+}
+}
+/* end-section video */
+    /* end-main */
 /* end-query tablet */
 
 /* query desktop */
